@@ -1,0 +1,63 @@
+
+.logo {
+  background: url('../download.jpg') no-repeat center center/cover;
+  display: block;
+  width: 55px;
+  margin: auto;
+  height: 55px;
+}
+h1{
+  margin-top: 12px;
+  font-size: 30px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+.container {
+  max-width: 955px;
+  border: 2px solid black;
+  margin: auto;
+  height: 60vh;
+  padding: 33px;
+  overflow-y: auto;
+
+}
+.message {
+  margin: 17px 12px;
+  background-color: rgb(180,177,177);
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+.left {
+  float: left;
+  clear: both;
+}
+.right {
+  float: right;
+  clear: both;
+}
+#send-container{
+    text-align: center;
+    max-width: 985px;
+    width: 100%;
+    margin: auto;
+    padding: 10px;
+}
+#messageInp{
+    width: 860px;
+    border: 2px solid black;
+    border-radius: 6px;
+    height: 34px;
+}
+.btn{
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 6px;
+    height: 34px;
+    width: 110px;
+}
+body{
+    height: 100vh;
+    background-image: linear-gradient(rgb(255,255,255),rgb(109,39,239));
+    
+}
